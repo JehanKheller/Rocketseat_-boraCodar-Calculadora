@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*:root {
+
+}*/
+
+body * {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(180deg, #807ece 0%, #8e7ece 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 356px;
+  height: 566px;
+  padding: 48px 32px 32px;
+  border-radius: 48px;
+  background: #2D2A37;
+  box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.22) inset, 0px 6px 8px 0px rgba(255, 255, 255, 0.10) inset, 0px 8px 17px 0px rgba(0, 0, 0, 0.29), 0px 30px 30px 0px rgba(0, 0, 0, 0.26), 0px 68px 41px 0px rgba(0, 0, 0, 0.15), 0px 120px 48px 0px rgba(0, 0, 0, 0.04), 0px 188px 52px 0px rgba(0, 0, 0, 0.01), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#display-calculo {
+  margin-bottom: 26px;
+  /*border: 1px solid red;*/
+  padding: 0 18px;
+  text-align: right;
+}
+
+#resultado_historico {
+  font-size: 20px;
+  color: #6B6B6B;
+}
+
+#resultado {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+/*#container-buttons {
+  border: 1px solid red;
+}*/
+
+#container-buttons table tbody, #container-buttons table tbody tr, .buttons {
+  display: flex;
+}
+
+#container-buttons table tbody {  
+  flex-direction: column;
+  gap: 10px;
+}
+
+#container-buttons table tbody tr {
+  gap: 10px;
+}
+
+.buttons {
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 0;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #2D2A37;
+  box-shadow: 0px 2px 3px 0px rgba(255, 255, 255, 0.06) inset, 0px 0px 2px 0px rgba(0, 0, 0, 0.29), 0px 2px 4px 0px rgba(0, 0, 0, 0.26), 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 7px 7px 0px rgba(0, 0, 0, 0.04), 0px 11px 7px 0px rgba(0, 0, 0, 0.01);
+  font-size: 24px;
+  transition: background 0.3s;
+}
+
+.buttons:hover {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #373342;
+}
+
+.buttons:active {
+  background: #373342;
+}
+
+.buttons:focus {
+  outline: 5px solid rgba(255, 255, 255, 0.3);
+}
+
+.btnOperator {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #462878;
+}
+
+.btnOperator:hover {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #4d307d;
+}
+
+.btnOperator:active {
+  background: #4d307d;
+}
+
+#btnOperatorIgual {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
+}
+
+#btnOperatorIgual:hover {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #8652e1;
+}
+
+#btnOperatorIgual:active {
+  background: #8652e1;
+}
