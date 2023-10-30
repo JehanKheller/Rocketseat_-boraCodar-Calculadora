@@ -23,14 +23,14 @@
               <td><button class="buttons" style="color: #7F45E2;" onclick="Backspace()">CE</button></td>
               <td><button class="buttons" onclick="ClearDisplayResult()">C</button></td>
               <td><button class="buttons" onclick="Insert('%')">%</button></td>
-              <td><button class="buttons btnOperator" onclick="InsertOperator('/')"><img src="./assets/divisao.svg" alt=""></button>
+              <td><button class="buttons btnOperator" onclick="InsertOperator('÷')"><img src="./assets/divisao.svg" alt=""></button>
               </td>
             </tr>
             <tr>
               <td><button class="buttons" onclick="Insert('7')">7</button></td>
               <td><button class="buttons" onclick="Insert('8')">8</button></td>
               <td><button class="buttons" onclick="Insert('9')">9</button></td>
-              <td><button class="buttons btnOperator" onclick="InsertOperator('*')"><img src="./assets/multiplicacao.svg" alt=""></button></td>
+              <td><button class="buttons btnOperator" onclick="InsertOperator('x')"><img src="./assets/multiplicacao.svg" alt=""></button></td>
             </tr>
             <tr>
               <td><button class="buttons" onclick="Insert('4')">4</button></td>
@@ -48,7 +48,7 @@
               <td><button class="buttons" onclick="Insert('')">+/-</button></td>
               <td><button class="buttons" onclick="Insert('0')">0</button></td>
               <td><button class="buttons" onclick="Insert(',')">,</button></td>
-              <td><button id="btnOperatorIgual" class="buttons" onclick="Calcular()"><img src="./assets/igualdade.svg" alt="Operador de igualdade."></button></td>
+              <td><button id="btnOperatorIgual" class="buttons" onclick="InsertOperator('=')"><img src="./assets/igualdade.svg" alt="Operador de igualdade."></button></td>
             </tr>
           </tbody>
         </table>
