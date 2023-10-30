@@ -23,7 +23,6 @@ body {
 
 #container {
   width: 356px;
-  height: 566px;
   padding: 48px 32px 32px;
   border-radius: 48px;
   background: #2D2A37;
@@ -54,6 +53,10 @@ body {
 
 #container-buttons table tbody, #container-buttons table tbody tr, .buttons {
   display: flex;
+}
+
+#container-buttons {
+  margin-bottom: 15px;
 }
 
 #container-buttons table tbody {  
